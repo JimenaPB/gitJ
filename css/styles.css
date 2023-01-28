@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    display: block;
+    margin:auto;
+    
+}
+ul {
+    list-style: none;
+    padding:20px;
+    font-size:0 
+}
+li {
+    display: inline-block;
+    width: 25%;
+    font-size: 20px;
+    font-style: italic;
+    }
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+    width: auto;
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    color: goldenrod; 
+}
+li a:hover{
+    font-weight: bold;
+}
+ul li:hover ul {
+    display:block;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+#institucion{
+    width:100%;
+    padding-bottom: 25px;
+}
+.niv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.image{
+    height:  210px;
+    border-radius: 15%;
+}
+.image:hover{
+    opacity: .7;
+}
+.frase{
+    background-color: rgb(13, 13, 105);
+    padding-bottom: 25px;
+    padding:25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-style: italic;
+    font-size: 40px;
+    color:white;
+    text-align:center
+}
+#imgfoot{
+    margin:0
+}
+footer{
+    background-color: rgba(190, 5, 14, 0.87);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.datos{
+    display: block;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.datos h2{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder
+}
+.redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.redes{
+    display: block;
+}
+.docdire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.docini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.docprim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.docsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.autori{
+    text-align: center;
+    font-style: italic;
+    font-weight:bold;
+    margin-bottom: 26px;
+    
+}
+.imgdoc{
+    height: 160px;
+    padding-top: 20px;
+}
+.imgdoc:hover{
+    opacity: .7;
+    border-radius: 40%;
+}
+.tit{
+    background-color: rgb(1, 1, 102);
+    color: white;
+    text-align: center;
+}
+.univ {
+    font-size: 30px;
+    color: rgb(3, 3, 131);
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.univlogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 26px;
+}
+.parrafos{
+    font-size: 30px;
+    color: rgb(3, 3, 131);
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.listas{
+    font-size: 20px;
+    font-style: italic;
+}
+.college{
+    z-index: -1;
+    position:absolute;
+    width: 100%;
+    opacity: .2;
+}
+.fondo{
+    background-color: rgba(128, 128, 128, 0.596);
+}
+.parrafos2{
+    font-size: 15px;
+    color: rgb(3, 3, 131);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.collegex{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.histodo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.historiap{
+    margin: 20px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: justify;
+font-weight: bold;
+color: rgb(0, 0, 90);
+font-style: italic;
+}
+  .btn {
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+    background-color: rgb(2, 2, 109);
+    color: white;
+}
+    div {
+    margin: 10px;
+}
+    div label {
+    width: 25%;
+    float: left;
+    font-weight: bold;
+    
+}
+.alum{
+    margin: 30px;
+
+    display: block;
+    font-weight: bold;
+    background-color: goldenrod;
+}
+.padres{
+    margin: 30px;
+    background-color: goldenrod;
+    display: block;
+    font-weight: bold;
+}
